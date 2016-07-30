@@ -1,4 +1,4 @@
-# ci40_led_switch
+# Creator Ci40 - LED Switch Control
 This project controls the LEDs on the Ci40 using the switches on the board. For more information and detailed instructions, [go to the Instructables guide](http://www.instructables.com/id/Creator-Ci40-LED-Switch/).
 
 ## Quickstart guide:
@@ -8,7 +8,7 @@ Then, to transfer openwrt to the USB:
 ```
 df
 ```
-The USB appears as /dev/sdb[x] (replace x with the number given by the `df` command. If necessary, unplug the USB and run df again to see which device disappears
+The USB appears as /dev/sdb[x] (replace x with the number given by the `df` command). If necessary, unplug the USB and run df again to see which device disappears
 ```
 umount /dev/sdb[x]
 ```
