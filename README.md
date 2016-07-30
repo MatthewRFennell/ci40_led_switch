@@ -23,7 +23,7 @@ This opens a root file explorer. Copy the contents of /path/to/openwrt/bin/pista
 ```
 sync
 ```
-## Adding the LED Switch program
+### Adding the LED Switch program
 
 ```
 git clone https://github.com/MatthewRFennell/ci40_led_switch.git
