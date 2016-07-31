@@ -4,7 +4,13 @@ This project controls the LEDs on the Ci40 using the switches on the board. For 
 ## Quickstart guide:
 ### Installing openwrt and LetMeCreate library
 [Follow these steps to install openwrt and the LetMeCreate library](https://github.com/francois-berder/LetMeCreate)
-Then, to transfer openwrt to the USB:
+#### Note that when running the `make menuconfig command`:
+
+In Target System menu, select (X) IMG MIPS Pistachio
+
+In Target profile menu, select (x) Basic platform profile for Marduk with TI cc2520
+
+#### Then, to transfer openwrt to the USB:
 ```
 df
 ```
